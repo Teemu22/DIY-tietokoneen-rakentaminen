@@ -137,3 +137,16 @@ footer a:hover {
 .social-media a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: block;
+    }
+    .container {
+        padding: 10px;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
